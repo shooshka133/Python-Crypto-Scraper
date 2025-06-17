@@ -1,0 +1,5 @@
+# Ignore PyCharm settings, virtual environment, and cache
+.idea/
+venv/
+__pycache__/
+*.pyc
