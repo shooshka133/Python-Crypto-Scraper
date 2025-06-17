@@ -1,5 +1,14 @@
-# Ignore PyCharm settings, virtual environment, and cache
-.idea/
-venv/
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+
+# Environment
+venv/
+.env
+
+# IDE
+.idea/
+
+# Output files
+*.log
+crypto_prices.csv

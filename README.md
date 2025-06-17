@@ -1,13 +1,19 @@
-# CoinGecko Crypto Price Scraper
-Fetches top 10 cryptocurrencies from CoinGecko API, saving name, price, and 24h change to CSV.
+# 📊 CoinGecko Crypto Price Scraper
 
-## Features
-- Fetches 10 coins in ~0.5s per run.
-- Supports periodic fetching (e.g., every 60s).
-- Logs errors/success to `scraper.log`.
-- Command-line argument for run count.
+A simple Python script to fetch and log the top 10 cryptocurrencies from the CoinGecko API. Saves data to a CSV with price, name, 24h change, and timestamp.
 
-## Setup
+## 🛠 Features
+
+- Top 10 coins by market cap
+- CSV export with timestamp
+- Supports periodic fetching (e.g., every 60s)
+- Logging to `scraper.log`
+- Command-line support with `--runs` flag
+
+## 🚀 Setup
+
 ```bash
-pip install requests pandas
+git clone https://github.com/YOUR_USERNAME/CryptoScraper.git
+cd CryptoScraper
+pip install -r requirements.txt
 python scraper.py --runs 3
