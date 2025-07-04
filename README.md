@@ -13,7 +13,7 @@ A simple Python script to fetch and log the top 10 cryptocurrencies from the Coi
 ## 🚀 Setup
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/CryptoScraper.git
+git https://github.com/shooshka133/Python-Crypto-Scraper.git
 cd CryptoScraper
 pip install -r requirements.txt
 python scraper.py --runs 3
