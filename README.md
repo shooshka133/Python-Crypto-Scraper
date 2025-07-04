@@ -17,3 +17,6 @@ git https://github.com/shooshka133/Python-Crypto-Scraper.git
 cd Python-Crypto-Scraper
 pip install -r requirements.txt
 python scraper.py --runs 3
+
+## screenshots
+![csv output](screenshos/crypto-output.png)
