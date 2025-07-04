@@ -18,7 +18,7 @@ cd Python-Crypto-Scraper
 pip install -r requirements.txt
 python scraper.py --runs 3
 
-## screenshots
+## Screenshots
 
 ![csv output](screenshots/crypto-output.png)
 
