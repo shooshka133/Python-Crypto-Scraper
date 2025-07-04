@@ -20,3 +20,5 @@ python scraper.py --runs 3
 
 ## screenshots
 ![csv output](screenshots/crypto-output.png)
+
+
