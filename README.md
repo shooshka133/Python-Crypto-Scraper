@@ -10,6 +10,10 @@ A simple Python script to fetch and log the top 10 cryptocurrencies from the Coi
 - Logging to `scraper.log`
 - Command-line support with `--runs` flag
 
+## ☑️ Screenshots
+
+![csv output](screenshots/crypto-output.png)
+
 ## 🚀 Setup
 
 ```bash
@@ -18,8 +22,5 @@ cd Python-Crypto-Scraper
 pip install -r requirements.txt
 python scraper.py --runs 3
 
-## 🚀 Screenshots
-
-![csv output](screenshots/crypto-output.png)
 
 
