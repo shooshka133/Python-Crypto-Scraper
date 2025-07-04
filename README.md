@@ -19,4 +19,4 @@ pip install -r requirements.txt
 python scraper.py --runs 3
 
 ## screenshots
-![csv output](screenshos/crypto-output.png)
+![csv output](screenshots/crypto-output.png)
